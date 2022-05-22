@@ -1,0 +1,410 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  margin: none;
+}
+
+.top {
+  width: 100vw;
+  height: 150px;
+  background-color: #7e1814;
+  color: white;
+}
+
+.top2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 150px;
+}
+
+.top-left,
+.top-right {
+  margin: 0 10px;
+}
+
+.top-right h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.top-right h1,
+.top-right p {
+  text-align: end;
+}
+
+.top-right {
+  margin: 0 25px;
+}
+
+.top-left a {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.bottom {
+  margin: 0 10px;
+  line-height: 20px;
+}
+
+.bottom h2 {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  color: #7e1814;
+}
+
+.bottom hr {
+  border: none;
+  background-color: #7e1814;
+}
+
+.left-summary p,
+.right-prof-exp li {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.l-ks,
+.l-ts {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.l-ks span,
+.l-ts span {
+  display: inline-block;
+  background-color: #7e1814;
+  padding: 5px 15px;
+  margin: 5px 8px;
+  border-radius: 10px;
+}
+
+.bottom-right h4 {
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.bottom-right span {
+  font-size: 14px;
+}
+
+.right-prof-exp .span1 {
+  margin-left: 80px;
+}
+
+.right-prof-exp .span2 {
+  margin-left: 11px;
+}
+
+.right-edu .span1 {
+  margin-left: 148px;
+}
+
+.right-edu .span2 {
+  margin-left: 65px;
+}
+
+.right-edu .span3 {
+  margin-left: 183px;
+}
+
+.right-edu .span4 {
+  margin-left: 215px;
+}
+
+.right-edu .span5 {
+  margin-left: 178px;
+}
+
+.right-edu .span6 {
+  margin-left: 215px;
+}
+
+.right-prof-exp li,
+.right-Projects li {
+  margin-left: 30px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media (min-width: 400px) {
+  .right-prof-exp .span1 {
+    margin-left: 110px;
+  }
+
+  .right-prof-exp .span2 {
+    margin-left: 41px;
+  }
+
+  .right-edu .span1 {
+    margin-left: 178px;
+  }
+
+  .right-edu .span2 {
+    margin-left: 95px;
+  }
+
+  .right-edu .span3 {
+    margin-left: 213px;
+  }
+
+  .right-edu .span4 {
+    margin-left: 245px;
+  }
+
+  .right-edu .span5 {
+    margin-left: 208px;
+  }
+
+  .right-edu .span6 {
+    margin-left: 245px;
+  }
+}
+
+@media (min-width: 450px) {
+  .right-prof-exp .span1 {
+    margin-left: 160px;
+  }
+
+  .right-prof-exp .span2 {
+    margin-left: 91px;
+  }
+
+  .right-edu .span1 {
+    margin-left: 228px;
+  }
+
+  .right-edu .span2 {
+    margin-left: 145px;
+  }
+
+  .right-edu .span3 {
+    margin-left: 263px;
+  }
+
+  .right-edu .span4 {
+    margin-left: 295px;
+  }
+
+  .right-edu .span5 {
+    margin-left: 258px;
+  }
+
+  .right-edu .span6 {
+    margin-left: 295px;
+  }
+}
+
+@media (min-width: 500px) {
+  .right-prof-exp .span1 {
+    margin-left: 210px;
+  }
+
+  .right-prof-exp .span2 {
+    margin-left: 141px;
+  }
+
+  .right-edu .span1 {
+    margin-left: 278px;
+  }
+
+  .right-edu .span2 {
+    margin-left: 195px;
+  }
+
+  .right-edu .span3 {
+    margin-left: 313px;
+  }
+
+  .right-edu .span4 {
+    margin-left: 345px;
+  }
+
+  .right-edu .span5 {
+    margin-left: 308px;
+  }
+
+  .right-edu .span6 {
+    margin-left: 345px;
+  }
+}
+
+@media (min-width: 600px) {
+  .bottom {
+    display: flex;
+  }
+
+  .top-right {
+    margin-right: 95px;
+  }
+
+  .bottom-left {
+    flex-basis: 40%;
+    margin-right: 30px;
+  }
+
+  .bottom-right {
+    flex-basis: 60%;
+    margin-right: 95px;
+  }
+
+  .fa-phone::after {
+    content: "7092679356";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-envelope::after {
+    content: "sankarvj1999@gmail.com";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-location-dot::after {
+    content: "Tenksai, TN";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-github::after {
+    content: "Github";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  .centre {
+    width: 675px;
+    margin: 0 auto;
+  }
+
+  .right-prof-exp .span1 {
+    margin-left: 80px;
+  }
+
+  .right-prof-exp .span2 {
+    margin-left: 11px;
+  }
+
+  .right-edu .span1 {
+    margin-left: 148px;
+  }
+
+  .right-edu .span2 {
+    margin-left: 65px;
+  }
+
+  .right-edu .span3 {
+    margin-left: 183px;
+  }
+
+  .right-edu .span4 {
+    margin-left: 215px;
+  }
+
+  .right-edu .span5 {
+    margin-left: 178px;
+  }
+
+  .right-edu .span6 {
+    margin-left: 215px;
+  }
+
+  .right-prof-exp li,
+  .right-Projects li {
+    margin-left: 30px;
+    font-size: 14px;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 713px) {
+  .bottom {
+    display: flex;
+  }
+
+  .bottom-left {
+    flex-basis: 40%;
+    margin-right: 30px;
+  }
+
+  .bottom-right {
+    flex-basis: 60%;
+  }
+
+  .fa-phone::after {
+    content: "7092679356";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-envelope::after {
+    content: "sankarvj1999@gmail.com";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-location-dot::after {
+    content: "Tenksai, TN";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-github::after {
+    content: "Github";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (min-width: 900px) {
+  .bottom {
+    display: flex;
+  }
+
+  .bottom-left {
+    flex-basis: 40%;
+    margin-right: 30px;
+  }
+
+  .bottom-right {
+    flex-basis: 60%;
+  }
+
+  .fa-phone::after {
+    content: "7092679356";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-envelope::after {
+    content: "sankarvj1999@gmail.com";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-location-dot::after {
+    content: "Tenksai, TN";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .fa-github::after {
+    content: "Github";
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+}
